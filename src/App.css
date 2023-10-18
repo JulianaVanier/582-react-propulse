@@ -1,5 +1,5 @@
 .banner_top {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/public/assets/image/cute-woman-fitness-outdoors.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/public/assets/image/cute-woman-fitness-outdoors_Easy-Resize.com.jpg);
   /* background-image: url(../img/bg-main-banner.png); */
   background-blend-mode: overlay;
   background-size: cover;
@@ -87,6 +87,111 @@ margin: auto;
   color: rgb(160, 160, 160);
   font-weight: 100;
 }
+
+.banner_small {
+  padding: 300px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/public/assets/image/young-woman-sweater-with-skates_Easy-Resize.com.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 100px;
+}
+
+.box_banner_small h5{
+
+  color: Black;
+  font-size: 50px;
+  /* text-shadow: 3px 3px 3px rgb(164, 197, 16); */
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+
+}
+
+.box_banner_small {
+  text-align: center;
+  width: 700px;
+  margin-right: 400px;
+}
+
+.box_banner_small .btn {
+  background-color: rgb(164, 197, 16);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+footer {
+  background-color: #000000;
+  padding-top: 80px;
+  /* padding-bottom: 40px; */
+}
+
+footer img {
+  display: block;
+  width: 200px;
+  max-height: 100%;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 40px;
+}
+
+.footer_grid p {
+  color: rgb(164, 197, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.footer_grid .ul-list {
+  list-style: none;
+}
+
+.footer_grid .ul-list li {
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  color: white;
+  padding: 8px 0;
+}
+
+.footer_grid .ul-list li:hover {
+  /* border-bottom: 2px solid #ff7f22; */
+  cursor: pointer;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 40px;
+}
+
+.privacy_left {
+  width: 50%;
+}
+
+.privacy_right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: right;
+}
+
+
 
 .App {
   text-align: center;
