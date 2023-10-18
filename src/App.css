@@ -1,3 +1,68 @@
+.banner_top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/public/assets/image/cute-woman-fitness-outdoors.jpg);
+  /* background-image: url(../img/bg-main-banner.png); */
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 67px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner_top p {
+  color: white;
+  /* text-shadow: 2px 1px 2px black; */
+  letter-spacing: 1px;
+}
+
+.banner_top h1{
+
+    color: Black;
+    font-size: 90px;
+    text-shadow: 3px 3px 3px rgb(164, 197, 16);
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.btn {
+  background-color: #8daa0c;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+.nav-bar img{
+  width: 200px;
+  max-height: 100%;
+}
+.nav-bar{
+  background-color: black;
+  color: white;
+}
+
+.nav-bar p{
+  color: white;
+}
+
+.form-control-sm{
+  width: 200px;
+  height: 30px;
+
+}
+
+.btn-search{
+margin: auto;
+
+}
+
 .App {
   text-align: center;
 }
