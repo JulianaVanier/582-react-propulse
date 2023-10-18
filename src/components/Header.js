@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 
-function NavScrollExample() {
+function Header() {
   return (
     <Navbar expand="lg" className="nav-bar" bg="dark" data-bs-theme="dark">
       <Container >
@@ -50,4 +50,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default Header;

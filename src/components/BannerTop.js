@@ -12,7 +12,7 @@ experience</h1>
                     elit. Esse ipsa accusamus quaerat velit aliquid ad
                     perferendis! Explicabo minus consectetur repudiandae.
                 </p> */}
-                <a class="btn" href="">Learn More</a>
+                <a class="btn" href="">Shop now</a>
             </div>
         </section>
     </>
