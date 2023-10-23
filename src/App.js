@@ -5,6 +5,7 @@ import BannerTop from './components/BannerTop';
 import CollectionBody from './components/CollectionBody';
 import BannerCalToActionBody from './components/BannerCalToActionBody';
 import Footer from './components/Footer';
+import SectionProducts from './components/SectionProducts';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 <BannerTop></BannerTop>
 <CollectionBody></CollectionBody>
 <BannerCalToActionBody></BannerCalToActionBody>
+<SectionProducts></SectionProducts>
 <Footer></Footer>
 
 </>

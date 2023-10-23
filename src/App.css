@@ -95,7 +95,7 @@ margin: auto;
   background-size: cover;
   display: flex;
   justify-content: end;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .box_banner_small h5{
