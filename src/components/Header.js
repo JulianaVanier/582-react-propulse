@@ -6,7 +6,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 
+
+
 function Header() {
+
+  function goContact() {
+    window.location.href = "/contact";
+    // navigate(-1);
+}
   return (
     <Navbar expand="lg" className="nav-bar" bg="dark" data-bs-theme="dark">
       <Container >
@@ -19,20 +26,20 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <Nav.Link href="#action1">All Sports</Nav.Link>
+            <Nav.Link href="#action2" onClick={ () => {goContact()}}>Contact</Nav.Link>
+            <NavDropdown title="Kids" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Another action
+                New Arrivals
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Something else here
+                Footwear
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" disabled>
-              Link
+              Men
             </Nav.Link>
           </Nav>
           <Form className="d-flex align-items-center">
