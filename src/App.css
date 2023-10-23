@@ -88,6 +88,19 @@ margin: auto;
   font-weight: 100;
 }
 
+.contact-form{
+  padding-top: 85px;
+  /* padding-bottom: 10px; */
+
+}
+
+.container-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .banner_small {
   padding: 300px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(/public/assets/image/young-woman-sweater-with-skates_Easy-Resize.com.jpg);
@@ -201,6 +214,25 @@ footer img {
   height: 40vmin;
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+
+  .banner_top h1 {
+
+    font-size: 3rem;
+
+}
+span {
+
+  font-size: 3rem;
+
+}
+
+  }
+  @media (min-width: 992px) {
+
+  }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

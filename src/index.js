@@ -11,6 +11,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ContactView from './components/ContactView';
 
 
 const store = configureStore({
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
     element: <div>
       <App />
     </div>,
+  },
+  {
+    path: "/contact",
+    element: (
+      <div>
+        <ContactView />
+      </div>
+    ),
   },
  
 ]);
