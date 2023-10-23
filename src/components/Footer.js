@@ -1,57 +1,127 @@
-import React from 'react'
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
-function Footer() {
-  return (
-    <>
-            <footer>
-            <div class="container">
-                <div class="footer_grid">
-                    <div><img src="/assets/image/propulse-sportswear-high-resolution-logo-black-on-transparent-background.png" alt="" /></div>
-                    <div>
-                        <p>Company</p>
-                        <ul class="ul-list" role="list">
-                            <li role="listitem">About</li>
-                            <li role="listitem">Team</li>
-                            <li role="listitem">Showcase</li>
-                            <li role="listitem">Blog</li>
-                            <li role="listitem">Contact</li>
-                            <li role="listitem">Demo design</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Follow us</p>
-                        <ul class="ul-list" role="list">
-                            <li role="listitem">Facebook</li>
-                            <li role="listitem">Twitter</li>
-                            <li role="listitem">Youtube</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Connect</p>
-                        <ul class="ul-list" role="list">
-                            <li role="listitem">+514 234 56 78</li>
-                            <li role="listitem">propulse@propulse.ca</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div class="container">
-                <div class="privacy">
-                    <div class="privacy_left">
-                        <p>
-                            © Copyright 2022 Dream-Theme. All rights reserved.
-                        </p>
-                    </div>
-                    <div class="privacy_right">
-                        <p>Privacy policy</p>
-                        <p>Terms & conditions</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </>
-  )
+export default function App() {
+  
+
+  function goContact() {
+    window.location.href = "/contact";
+    // navigate(-1);
 }
 
-export default Footer
+  return (
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+
+
+        <div>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='facebook-f' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='twitter' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='google' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='instagram' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='linkedin' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='github' />
+          </a>
+        </div>
+      </section>
+
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon color='secondary' icon='gem' className='me-3' />
+                Propulse
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit.
+              </p>
+            </MDBCol>
+
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Footwear
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  React
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Vue
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Laravel
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Pricing
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Settings
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Orders
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Help
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4' onClick={ () => {goContact()}}>Contact</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-2' />
+                Montreal, QC H4L0A3, CA
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                propulse@propulse.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> +514 567 8801
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='print' className='me-3' /> +514 567 8901
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2023 Copyright
+      </div>
+    </MDBFooter>
+  );
+}
