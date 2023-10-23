@@ -29,8 +29,8 @@ function Footer() {
                     <div>
                         <p>Connect</p>
                         <ul class="ul-list" role="list">
-                            <li role="listitem">+001 234 56 78</li>
-                            <li role="listitem">hello@dream-theme.com</li>
+                            <li role="listitem">+514 234 56 78</li>
+                            <li role="listitem">propulse@propulse.ca</li>
                         </ul>
                     </div>
                 </div>
