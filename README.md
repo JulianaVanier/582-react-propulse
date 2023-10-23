@@ -19,6 +19,8 @@ This project is part of the WEB PROJECT 2 course and was developed with the goal
 ## Screenshot
 ![Project Image](/docs/propulse.png)
 
+![Project Image](/docs/contact.png)
+
 ## Project setup
 
 ```bash
