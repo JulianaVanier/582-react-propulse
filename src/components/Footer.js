@@ -54,22 +54,22 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Footwear
+                  All Sports
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  Women
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Men
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Kids
                 </a>
               </p>
             </MDBCol>

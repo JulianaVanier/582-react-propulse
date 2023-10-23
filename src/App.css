@@ -17,6 +17,12 @@
   letter-spacing: 1px;
 }
 
+#root > div > nav > div > button > span{
+  width: 1em;
+  height: 1em;
+
+}
+
 .banner_top h1{
 
     color: Black;
@@ -219,7 +225,7 @@ footer img {
 
   .banner_top h1 {
 
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 span {
@@ -227,12 +233,22 @@ span {
   font-size: 3rem;
 
 }
+.banner_top {
+
+  height: 550px;
+
+}
+
+.banner_small {
+  padding: 0;
+
+}
 
   }
   @media (min-width: 992px) {
 
   }
-
+  
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
