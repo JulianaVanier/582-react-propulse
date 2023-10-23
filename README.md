@@ -9,7 +9,7 @@ This project is part of the WEB PROJECT 2 course and was developed with the goal
 - **MongoDB**
 - **Bootstrap**
 - **Redux**
-- **MDB (Material Design for Bootstrap)**
+
 
 ## Key Features
 
