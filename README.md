@@ -17,8 +17,14 @@ This project is part of the WEB PROJECT 2 course and was developed with the goal
 - Integration with MongoDB for data storage.
 
 ## Screenshot
+
+Index
 ![Project Image](/docs/propulse.png)
 
+Index with Pop Up
+![Project Image](/docs/popup.png)
+
+Contact page
 ![Project Image](/docs/contact.png)
 
 ## Project setup
