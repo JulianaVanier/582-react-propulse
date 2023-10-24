@@ -187,6 +187,10 @@ footer img {
   cursor: pointer;
 }
 
+.modal-promotion{
+  background-color: #000000;
+}
+
 .privacy {
   display: flex;
   align-items: center;
